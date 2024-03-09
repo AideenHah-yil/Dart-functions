@@ -24,3 +24,15 @@ void main() {
     print(diff);
 }
 
+//function to multiply two numbers
+int multiplyTwo(int a, int b) {
+    int mul = a * b;
+    return mul;
+}
+ void main() {
+    int a = 9
+    int b = 3
+    int mul = multiplyTwo(a, b);
+
+    print(mul);
+}
