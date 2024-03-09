@@ -1,28 +1,29 @@
+// function to add two numbers
 int addTwo(int a, int b) {
     int sum = a + b;
     return sum;
 }
-void main() {
-    int a = 10;
-    int b = 20;
+// void main() {
+//     int a = 10;
+//     int b = 20;
 
-    int sum = addTwo(a, b);
-   print(sum); 
-}
+//     int sum = addTwo(a, b);
+//    print(sum); 
+// }
 
 // Function to subtract two numbers
-double subtractTwo(double a, double b) {
-    double diff = a - b;
+double subtractTwo(double num1, double num2) {
+    double diff = num1 - num2;
     return diff;
 }
 
-void main() {
-    double a = 33.3;
-    double b = 22.2;
-    double diff = subtractTwo(a, b);
+// void main() {
+//     double a = 33.3;
+//     double b = 22.2;
+//     double diff = subtractTwo(a, b);
 
-    print(diff);
-}
+//     print(diff);
+// }
 
 //function to multiply two numbers
 int multiplyTwo(int a, int b) {
