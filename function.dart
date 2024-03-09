@@ -50,3 +50,28 @@ void main() {
 
     print(div);
 }
+
+// function stringlength 
+int stringlength(String text) {
+    int length = text.length;
+    return length;  
+}
+
+void main() {
+    String text = "Hello";
+    int length = stringlength(text);
+    print(length);
+}
+
+// function to getFirstElement
+
+String getFirstElement(String text) {
+    String first = text.substring(0, 1);
+    return first;
+}
+
+void main() {
+    String text = "Hello";
+    String first = getFirstElement(text);
+    print(first);
+}
