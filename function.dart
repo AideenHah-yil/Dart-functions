@@ -36,3 +36,17 @@ int multiplyTwo(int a, int b) {
 
     print(mul);
 }
+
+// function to divide two numbers
+int divideTwo(int a, int b) {
+    int div = a / b;
+    return div;
+}
+
+void main() {
+    int a = 81;
+    int b = 3;
+    int div = divideTwo(a, b);
+
+    print(div);
+}
